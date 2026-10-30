@@ -12,7 +12,7 @@ const BUTTON_SIZES: Record<ButtonSize, string> = {
 
 const BUTTON_STYLES: Record<ButtonVariant, string> = {
   primary: tw('bg-blue-500 text-white'),
-  secondary: tw('bg-gray-200'),
+  secondary: tw('bg-gray-200 dark:text-black'),
   outline: tw('border-2 border-black'),
 };
 
