@@ -1,6 +1,6 @@
-import { tw } from '@/lib/utils/ui/tw';
-
 import { ReactNode } from 'react';
+
+import { tw } from '@/shared/lib/tw';
 
 type ButtonVariant = 'primary' | 'secondary' | 'outline';
 type ButtonSize = 'md' | 'lg';
@@ -11,7 +11,7 @@ const BUTTON_SIZES: Record<ButtonSize, string> = {
 };
 
 const BUTTON_STYLES: Record<ButtonVariant, string> = {
-  primary: tw('bg-blue-500 text-white '),
+  primary: tw('bg-blue-500 text-white'),
   secondary: tw('bg-gray-200'),
   outline: tw('border-2 border-black'),
 };
