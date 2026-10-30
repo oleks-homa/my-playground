@@ -35,9 +35,9 @@
   "lint-staged": {
     "*.{js,jsx,mjs,cjs,ts,tsx}": [
       "eslint --fix",
-      "prettier --write"
+      "prettier --check"
     ],
-    "!(*.{js,jsx,mjs,cjs,ts,tsx})": "prettier --write --ignore-unknown"
+    "!(*.{js,jsx,mjs,cjs,ts,tsx})": "prettier --check --ignore-unknown"
   },
   "packageManager": "pnpm@11.24.0"
 }
